@@ -1,7 +1,7 @@
 export default function Page() {
     return (
       <>
-      <h1 className="text-3xl m-6">Final Exam</h1>
+      <h1 className="text-5xl ml-6">Final Exam</h1>
       <form>
         <label htmlFor="product" className="m-6">Leave nice comments here</label>
         <input type="text" name="product" id="product" className="m-5 text-black
@@ -23,9 +23,9 @@ export default function Page() {
       <input type="radio" id="yes" name="fav_language" value="YES" />
       <label htmlFor="yes">I like Korean food</label><br />
       <input type="radio" id="no" name="fav_language" value="NO" />
-      <label htmlFor="no">I don't like Korean food</label><br />
+      <label htmlFor="no">I do not like Korean food</label><br />
       <input type="radio" id="idk" name="fav_language" value="IDK" />
-      <label htmlFor="idk">I never tried I don't know</label>
+      <label htmlFor="idk">I do not know I never tried</label>
       </div>
 
       <div className="m-6">
@@ -35,7 +35,7 @@ export default function Page() {
         <label htmlFor="vehicle2"> I disagree with your opinions</label><br />
         </div>
         
-        <button className="ml-10 bg-blue-500 hover:bg-blue-400 text-white font-bold 
+        <button className="m-6 bg-blue-500 hover:bg-blue-400 text-white font-bold 
         py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" 
         type="submit">Save</button>
       </form>
