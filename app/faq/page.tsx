@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <>
-
+    <div className="m-6">
     <h1 className='mb-4 top-margin-2 text-2xl font-bold text-pink-400'>
       Are these my personal opinions not necessarily trending or popular?
       </h1>
@@ -20,7 +20,7 @@ export default function Page() {
     <p className='mb-6 text-2xl font-extrabold'>
       You can argue with me after you have tried it
       </p>
-
+      </div>
     </>
 
 

@@ -1,6 +1,7 @@
 export default function Page() {
   return (
     <>
+      <div className="m-6">
       <h1 className='mb-6 text-3xl font-extrabold text-pink-400'>
         My Recommendations
         </h1>
@@ -32,7 +33,7 @@ export default function Page() {
       <p className='mb-2'>
         This is a good value and fresh meat spot but i still recommend the first spot if you have never had korean food
         </p>
-      
+        </div>
 
     </>
 
