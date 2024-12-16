@@ -7,31 +7,31 @@ export default function Page() {
         <input type="text" name="product" id="product" className="m-5 text-black
         bg-yellow-400"/>
         <br />
-        <label htmlFor="cars" className="m-5">Choose a car:</label>
+        <label htmlFor="rec" className="m-5">Choose a recommendation:</label>
 
-        <select name="cars" id="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-       <option value="mercedes">Mercedes</option>
-       <option value="audi">Audi</option>
+        <select name="rec" id="rec">
+        <option value="any">Would try any</option>
+        <option value="coop">The Coop</option>
+       <option value="butcher">Butcher360</option>
+       <option value="both">Would try both</option>
       </select>
 
       <br />
 
       <div className="ml-5">
-      <input type="radio" id="html" name="fav_language" value="HTML" />
-      <label htmlFor="html">HTML</label><br />
-      <input type="radio" id="css" name="fav_language" value="CSS" />
-      <label htmlFor="css">CSS</label><br />
-      <input type="radio" id="javascript" name="fav_language" value="JavaScript" />
-      <label htmlFor="javascript">JavaScript</label>
+      <input type="radio" id="yes" name="fav_language" value="YES" />
+      <label htmlFor="yes">I have tried Korean food before</label><br />
+      <input type="radio" id="no" name="fav_language" value="NO" />
+      <label htmlFor="no">Never tried Korean food before</label><br />
+      <input type="radio" id="idk" name="fav_language" value="IDK" />
+      <label htmlFor="idk">Would not try Korean food ever</label>
       </div>
 
       <div className="ml-5">
-        <input type="checkbox" id='vehicle' name='vehicle1' value='Bike' />
-        <label htmlFor="vehicle1"> I have a bike</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label htmlFor="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id='like' name='opinion' value='Agree' />
+        <label htmlFor="vehicle1"> I agree with your opinion</label><br />
+        <input type="checkbox" id="dislike" name="opinion2" value="Disagree" />
+        <label htmlFor="vehicle2"> I disagree with your opinion</label><br />
         </div>
         
         <button className="ml-10 bg-blue-500 hover:bg-blue-400 text-white font-bold 
